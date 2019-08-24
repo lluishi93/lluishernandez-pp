@@ -4,7 +4,7 @@ This project has been done for practice purposes, since I've a strong backend pr
 
 With that being said, this project has the following tech stack:
 - Plain HTML
-- Plain Javascript (almost no Javascript TBH, since it isnt't that necessary)
+- Plain Javascript (almost no Javascript TBH, since it isnt't that necessary for this page)
 - SCSS (Used a VS Code extension called Live Sass)
 - Deployed using Netlify
 
