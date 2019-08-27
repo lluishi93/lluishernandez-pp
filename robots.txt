@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+
+Sitemap: https://lluishernandez.netlify.com/sitemap.xml
