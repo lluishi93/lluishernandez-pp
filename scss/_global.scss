@@ -55,7 +55,7 @@ p {
 .introduction {
   h1 {
     font-size: 50px;
-    margin-bottom: 20px;
+    margin: auto 20px;
   }
 
   margin-bottom: 40px;
@@ -64,7 +64,7 @@ p {
 body {
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: auto 5fr 0.5fr;
+  grid-template-rows: 75px 5fr 0.5fr;
   grid-template-areas:
     "header"
     "main"
@@ -76,6 +76,11 @@ body {
     @extend .center;
     grid-area: header;
     height: 30px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: $light;
+    z-index: 999;
 
     @media (max-width: $mobile) {
       display: block;
