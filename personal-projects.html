@@ -76,7 +76,7 @@
               >.
             </p>
             <h3>Stack tecnológico</h3>
-            <ul>
+            <ul class="items">
               <li>
                 <img
                   src="https://cdn.freebiesupply.com/logos/large/2x/html5-logo-png-transparent.png"
@@ -135,17 +135,32 @@
           </div>
           <div class="card-body">
             <p>
-              Una API REST que permite realizar acciones CRUD para gestionar un
-              sistema de reservas, realizado con TDD.
+              Una <span>API REST escrita en Java 8</span> que permite realizar
+              acciones CRUD para gestionar un sistema de reservas, <span>realizado con
+              TDD</span>.
             </p>
             <p>
-              Ésta está creada con SparkJava, un microframework de Java que
-              permite crear microservicios o webapps, teniendo como base una
-              serie de utilidades que se asemejan a un request dispatcher puro y
-              duro.
+              Ésta está creada con <span>SparkJava</span>, un microframework de
+              Java que permite crear microservicios o webapps, teniendo como
+              base una serie de utilidades que se asemejan a un request
+              dispatcher puro y duro.
+            </p>
+            <p>
+              El punto de usar SparkJava en lugar de <span>Spring Boot</span> es
+              demostrar que, pese a que Spring Boot a nivel corporativo es muy
+              usado y te da muchas facilidades, estoy capacitado para crear
+              aplicaciones backend con otros frameworks.
+            </p>
+            <p>Ésta aplicación incluye:
+              <ul class="overview-list">
+                <li><span class="option"><span class="keyword">Inyección de dependencias</span> (Google Guice)</span></li>
+                <li><span class="option">Autenticación y autorización <span class="keyword">(JWT)</span></span></li>
+                <li><span class="option">[WIP] <span class="keyword">Docker</span> y <span class="keyword">Docker compose</span></span></li>
+                <li><span class="option">[WIP] <span class="keyword">Migraciones y seeders</span> para BBDD</span></li>
+              </ul>
             </p>
             <h3>Stack tecnológico</h3>
-            <ul>
+            <ul  class="items">
               <li>
                 <img
                   src="https://image.flaticon.com/icons/svg/226/226777.svg"
@@ -161,11 +176,25 @@
                 <h4>SparkJava</h4>
               </li>
               <li>
+                  <img
+                    src="https://planet.mysql.com/images/planet-logo.svg"
+                    alt="MySQL Logo"
+                  />
+                  <h4>MySQL</h4>
+                </li>
+              <li>
                 <img
                   src="https://i.pinimg.com/originals/cf/cb/07/cfcb073f7a75e78e66d8c650554863c3.png"
                   alt="Maven Logo"
                 />
                 <h4>Maven</h4>
+              </li>
+              <li>
+                  <img
+                  src="data:image/png;base64,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"
+                  alt="Docker logo"
+                />
+                <h4>Docker</h4>
               </li>
               <li>
                 <img
